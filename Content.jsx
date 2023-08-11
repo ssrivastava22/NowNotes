@@ -86,34 +86,6 @@ const Content = () => {
                     NowNotes was developed by a team of first-year Georgia Tech computer science students. Open source software was consulted, and the following GitHub was referenced to build the prediction model: https://github.com/Breta01/handwriting-ocr/tree/master
                 </p>
             </div>
-
-                {/* <div className='flex flex-col items-center'>
-                    <h2 className="text-2xl font-bold mb-4">How to Use</h2>
-                    <p className="text-center">
-                        Simply choose a file from your device, upload it to NowNotes, and sit back as your handwritten content is immediately transcribed to a Google doc for easy editing and sharing access! Note: As the application is currently in its primary deployment stages, black and white images of plain, neat handwriting.
-                    </p>
-
-                    <h2 className="text-2xl font-bold my-4">Future Developments</h2>
-                    <p className="text-center">
-                        Goals for the future of NowNotes include improving the prediction model by leveraging pretrained models. We hope to expand the service to modalities beyond Google Docs to eliminate any accessibility issues. Other goals include allowing users to upload a stream of images for efficient transcription, as well as expanding NowNotes to a mobile app platform.
-                    </p>
-
-                    <h2 className="text-2xl font-bold my-4">About</h2>
-                    <p className="text-center">
-                        NowNotes was developed by a team of first-year Georgia Tech computer science students. Open source software was consulted, and Bretislav Hajek's GitHub was referenced to build the prediction model.
-                    </p>
-                </div> */}
-
-                {/* <div className='flex flex-col items-center'>
-                    <h2>How to Use</h2>
-                    <p className="items-center">Simply choose a file from your device, upload it to NowNotes, 
-                        and sit back as your handwritten content is immediately transcribed to a Google doc for easy editing and sharing access! Note: As the application is currently in its primary deployment stages, black and white images of plain, neat handwriting. </p>
-                    <h2>Future Developments</h2>
-                    <p>Goals for the future of NowNotes include improving the prediction model by leveraging pretrained models. We hope to expand the service to modalities beyond Google Docs to eliminate any accessibility issues. Other goals 
-    include allowing users to upload a stream of images for efficient transcription, as well as expanding NowNotes to a mobile app platform. </p>
-                    <h2>About</h2>
-                    <p>NowNotes was developed by a team of first-year Georgia Tech computer science students. Open source software was consulted, and Bretislav Hajek's GitHub was referenced to build the prediction model. </p>
-                </div> */}
         </div>
     )
     }  
