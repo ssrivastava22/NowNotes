@@ -39,11 +39,9 @@ def upload_file():
         background_color = preprocessing_for_segmentation(image_path, image_path)
         segmentation(image_path, background_color)
         
-        # For loop through all word images inside toProcess folder after segmentation
         dir_path = 'C:\\Users\\veena\\Desktop\\GeorgiaTech\\NowNotes\\src\\toProcess'
         image_names = os.listdir(dir_path)
 
-        # Timestamps retrieved for each image and sort list based on timestamps
         timestamps = [(os.path.getmtime(os.path.join(dir_path, image_name)), image_name) for image_name in image_names]
         sorted_timestamps = sorted(timestamps)
 
