@@ -38,7 +38,6 @@ def create_google_doc(string):
     doc.SetContentString(content)
     doc.Upload()
 
-    # Retrieve the link to the Google Doc
     url = doc['alternateLink']
     print("Google Doc created successfully!")
     print("You can access the document at the following link:")
@@ -56,13 +55,8 @@ def read_file_content(filename):
 
 
 def delete_uploaded_images():
-    # Define the path to the "uploads" folder
     uploads_folder = 'uploads'
-
-    # Get a list of all files in the uploads folder
     files = os.listdir(uploads_folder)
-
-    # Iterate through the files and delete each one
     for file in files:
         file_path = os.path.join(uploads_folder, file)
         if os.path.isfile(file_path):
@@ -74,19 +68,19 @@ delete_uploaded_images()
 def delete_file_content(filename):
     try:
         with open(filename, 'w'):
-            pass  # This just opens and immediately closes the file
+            pass
         print(f"Content deleted from {filename}")
     except Exception as e:
         print(f"An error occurred while deleting content: {e}")
 
 def delete_uploaded_images():
-    # Define the path to the "uploads" folder
+
     uploads_folder = 'uploads'
 
-    # Get a list of all files in the uploads folder
+
     files = os.listdir(uploads_folder)
 
-    # Iterate through the files and delete each one
+
     for file in files:
         file_path = os.path.join(uploads_folder, file)
         if os.path.isfile(file_path):
@@ -94,13 +88,12 @@ def delete_uploaded_images():
             print(f"Deleted: {file_path}")
 
 def delete_toProcess_images():
-    # Define the path to the "uploads" folder
+
     uploads_folder = 'toProcess'
 
-    # Get a list of all files in the uploads folder
+
     files = os.listdir(uploads_folder)
 
-    # Iterate through the files and delete each one
     for file in files:
         file_path = os.path.join(uploads_folder, file)
         if os.path.isfile(file_path):
