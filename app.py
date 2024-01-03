@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import easyocr
 from PIL import Image
-from sample_model import detection, preprocess_image
+from detection_processing import detection, preprocess_image
 import argparse
 import webbrowser
 from tensorflow.keras.models import load_model
